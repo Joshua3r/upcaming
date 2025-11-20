@@ -50,7 +50,7 @@ jobs:
       run: |
         cd extracted
         Start-Sleep -Seconds 10
-        python test4.py
+        python test3.py
 
     - name: Keep alive-v22365
       run: Start-Sleep -Seconds 21600 
